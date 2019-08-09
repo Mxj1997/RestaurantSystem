@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>LoginMenuServlet</servlet-name>
+    <servlet-class>com.catering.servlet.LoginMenuServlet</servlet-class>
+  </servlet>
+  <servlet> 
+    <servlet-name>DeskServlet</servlet-name>
+    <servlet-class>com.catering.servlet.DeskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CuisineServlet</servlet-name>
+    <servlet-class>com.catering.servlet.CuisineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TmanageServlet</servlet-name>
+    <servlet-class>com.catering.servlet.TmanageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCuisine</servlet-name>
+    <servlet-class>com.catering.servlet.AddCuisine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeskManageServlet</servlet-name>
+    <servlet-class>com.catering.servlet.DeskManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FromServlet</servlet-name>
+    <servlet-class>com.catering.servlet.FromServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PageMenuServlet</servlet-name>
+    <servlet-class>com.catering.servlet.PageMenuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.catering.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SettleServlet</servlet-name>
+    <servlet-class>com.catering.servlet.SettleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Amanage</servlet-name>
+    <servlet-class>com.catering.servlet.Amanage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAmanage</servlet-name>
+    <servlet-class>com.catering.servlet.AddAmanage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IncomeServlet</servlet-name>
+    <servlet-class>com.catering.servlet.IncomeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginMenuServlet</servlet-name>
+    <url-pattern>/LoginMenuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeskServlet</servlet-name>
+    <url-pattern>/deskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CuisineServlet</servlet-name>
+    <url-pattern>/cuisine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TmanageServlet</servlet-name>
+    <url-pattern>/tmanage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCuisine</servlet-name>
+    <url-pattern>/addCuisine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeskManageServlet</servlet-name>
+    <url-pattern>/dmanage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FromServlet</servlet-name>
+    <url-pattern>/fromServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PageMenuServlet</servlet-name>
+    <url-pattern>/pageMenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/catering</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SettleServlet</servlet-name>
+    <url-pattern>/SettleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Amanage</servlet-name>
+    <url-pattern>/amanage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAmanage</servlet-name>
+    <url-pattern>/addAmanage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IncomeServlet</servlet-name>
+    <url-pattern>/incomeServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <filter>
+      <filter-name>cateringfilter</filter-name>
+      <filter-class>com.catering.filter.CateringFilter</filter-class>
+      <init-param>
+           <param-name>encoder</param-name>
+           <param-value>UTF-8</param-value>
+      </init-param>
+  
+  </filter>
+  
+  <filter-mapping>
+      <filter-name>cateringfilter</filter-name>
+      <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+</web-app>
